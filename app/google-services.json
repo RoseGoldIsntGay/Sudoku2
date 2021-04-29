@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365348197167",
+    "firebase_url": "https://sudoku-a3ae3-default-rtdb.firebaseio.com",
+    "project_id": "sudoku-a3ae3",
+    "storage_bucket": "sudoku-a3ae3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365348197167:android:1204c36f017148c52e07da",
+        "android_client_info": {
+          "package_name": "rosegold.example.sudoku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365348197167-gmvc3v8apek28hnhssgmncpnmj05763r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rosegold.example.sudoku",
+            "certificate_hash": "a9751af2886bcb367d87a410903128b75dcf69b9"
+          }
+        },
+        {
+          "client_id": "365348197167-c31pnbkan44cleutd3obla3c3abin82m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPy8V0bbvyTdIiVH6z771I26EpaFhGyLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365348197167-c31pnbkan44cleutd3obla3c3abin82m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

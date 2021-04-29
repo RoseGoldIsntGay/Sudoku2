@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <rosegold.example.sudoku.SudokuGridView
+        android:id="@+id/sudokuGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="0dp"
+        android:numColumns="9"
+        android:verticalSpacing="0dp">
+
+    </rosegold.example.sudoku.SudokuGridView>
+
+    <rosegold.example.sudoku.ButtonsGridView
+        android:id="@+id/buttonsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sudokuGridView"
+        android:numColumns="5">
+
+    </rosegold.example.sudoku.ButtonsGridView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonsGridView"
+        android:foregroundGravity="top"
+        android:text="Back to main menu" />
+
+</RelativeLayout>
